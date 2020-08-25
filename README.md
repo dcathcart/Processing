@@ -9,3 +9,7 @@ My collection of sketches made with [Processing](https://processing.org).
 [code](sketch_180720a/sketch_180720a.pde) |
 [output](sketch_180720a/sketch_180720a.jpg) |
 [Instagram](https://www.instagram.com/p/BldHvzFFnOH/)
+3. Mystic Rose on Dodgy Paper:
+[code](sketch_180817a/sketch_180817a.pde) |
+[output](sketch_180817a/sketch_180817a-5.jpg) |
+[Instagram](https://www.instagram.com/p/BmlFZ-wFyH4/)

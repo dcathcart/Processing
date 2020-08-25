@@ -1,10 +1,13 @@
+// I discovered the name for this pattern about 2 years after I created it:
+// the Mystic Rose. There are plenty of examples if you search online.
+
+// See below for parameters that can be tweaked
+// (in particular, number of points around the circle)
 
 PImage backgroundImage;
 
 void setup() {
-  //backgroundImage = loadImage("IMG_8006-2.jpg");
   backgroundImage = loadImage("FullSizeRender.jpg");
-  //size(1080, 1440);
   size(1080, 1080);
   stroke(255);
   noLoop();
@@ -13,14 +16,14 @@ void setup() {
 void draw() {
   image(backgroundImage, 0, 0, width, height);
   
-  stroke(255, 240, 240); //255
-  strokeWeight(1.5); //1.5
+  stroke(255, 240, 240);
+  strokeWeight(1.5);
   fill(0);
   
-  int numPoints = 20; //30
-  int x0 = 540;
-  int y0 = 540; //720
-  int radius = 300; //450
+  int numPoints = 20;  // number of points around the circle
+  int x0 = 540;        // x position of the circle's centre
+  int y0 = 540;        // y position of the circle's centre
+  int radius = 300;    // size of the circle
     
   float angle = TWO_PI / numPoints;
   
@@ -39,10 +42,10 @@ void draw() {
   }
  
   for (int i = 0; i < numPoints; i++) {
-    circle(x[i], y[i], 3); //4
+    circle(x[i], y[i], 3);
   }
  
-  save("sketch_180817a-5.jpg");
+  // save("sketch_180817a-5.jpg");
 }
 
 void circle(float x, float y, float radius) {
